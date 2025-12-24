@@ -11,6 +11,6 @@ print("""Hello World""")
 # 扩展 转义字符（\）
 print("Hello \"World\"")
 
-# \n 换行
+# \n 换行newline
 print("Hello\nWorld")
 
