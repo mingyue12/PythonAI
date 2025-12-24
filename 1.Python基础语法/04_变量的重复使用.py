@@ -1,0 +1,17 @@
+print("周杰伦")
+print("周杰伦")
+print("周杰伦")
+print("周杰伦")
+print("周杰伦")
+print("周杰伦")
+print("周杰伦")
+
+name = "林俊杰"
+print(name)
+print(name)
+print(name)
+print(name)
+print(name)
+print(name)
+print(name)
+print(name)
