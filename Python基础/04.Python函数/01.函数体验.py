@@ -7,7 +7,7 @@ def my_len(data):
         data的长度
     """
     my_length: int = 0  # 初始化长度计数器为0
-    for i in data:  # 遍历data中的每个元素
+    for value in data:  # 遍历data中的每个元素
         my_length += 1  # 每遍历一个元素，长度计数器加1
     return my_length  # 返回计算得到的长度
 
