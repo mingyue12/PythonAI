@@ -19,6 +19,15 @@ def add(a, b):
 
 
 # 调用函数
-result = add(1, 2)
-print(result)
+result1 = add(1, 2)
+result2 = add("666", "777")
+print(result1)
+print(result2)
 
+"""
+# 形式参数：
+
+# 实际参数：
+
+# 传入参数类型不限，数量不限
+"""
