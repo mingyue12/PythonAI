@@ -17,5 +17,11 @@ t1 = (1, 2, 3, "a", "b", "c")
 print(t1, type(t1))  # 输出: (1, 2, 3, 'a', 'b', 'c') <class 'tuple'>
 
 # 空元组
-t2 = ()
-print(t2, type(t2))  # 输出: () <class 'tuple'>
+t2 = ()  # 方式一
+t3 = tuple()  # 方式二
+print(t2, type(t2), t3, type(t3))  # 输出: () <class 'tuple'>   () <class 'tuple'>
+
+# 单元素元组
+t4 = (1,)  # 注意逗号
+t5 = (1,)  # 省略括号
+print(t4, type(t4), t5, type(t5))  # 输出: (1,) <class 'tuple'>   (1,) <class 'tuple'>
