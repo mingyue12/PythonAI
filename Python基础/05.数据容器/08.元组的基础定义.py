@@ -25,3 +25,8 @@ print(t2, type(t2), t3, type(t3))  # 输出: () <class 'tuple'>   () <class 'tup
 t4 = (1,)  # 注意逗号
 t5 = (1,)  # 省略括号
 print(t4, type(t4), t5, type(t5))  # 输出: (1,) <class 'tuple'>   (1,) <class 'tuple'>
+
+
+# 元组的嵌套
+t6 = (1, 2, (3, 4, 5))
+print(t6[2][0])  # 输出: 3
