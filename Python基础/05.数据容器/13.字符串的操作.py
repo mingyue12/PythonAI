@@ -49,3 +49,5 @@ print(num_a)
 # len()统计字符串的长度
 str6 = "itheima"
 print(len(str6))
+
+
