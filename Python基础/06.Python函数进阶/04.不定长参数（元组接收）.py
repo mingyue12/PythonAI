@@ -19,12 +19,12 @@ def func(name, *args):
 
 # 注意，语法上支持下列的函数传参写法，在实际调用的时候需要通过关键字参数给age提供值
 # 否则，全部参数都被*kwargs接收
-def func2(name, *kwargs, age):
+def func2(name, *args, age):
     """
     *args是不定长参数的标记，表示接收任意数量的位置参数，封装成元组
     """
     print(f"我们是：{name}，我们的成员有：")
-    for i in kwargs:
+    for i in args:
         print(i)
 
 func("学生", "张三", "李四", "王五")
