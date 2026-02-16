@@ -20,4 +20,3 @@ import 和 from 语句中
 
 from my_package import *
 model1.say_hello()
- 
