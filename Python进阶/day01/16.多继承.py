@@ -1,6 +1,10 @@
 """
 案例：演示多继承
 需求：小明学习摊煎饼果子
+扩展：MRO机制
+    Pyhon中有MRO机制，可以查看某个对象，在调用函数时的顺序，即：先找哪个类，后找哪个类
+    格式：
+        类名.__mro__
 """
 # 1.定义师傅类
 class Master(object):
@@ -24,3 +28,8 @@ class Prentice(School, Master): # 从左往右就近原则
 # 测试
 xm = Prentice()
 xm.make_cake()
+print("-" * 34)
+
+# MRO机制
+print(Prentice.mro())
+print(Prentice.__mro__)
