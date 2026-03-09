@@ -39,12 +39,14 @@ class Car:
 
 
 # 定义函数，接受不同的动物对象，调用speak方法
-def make_noise(an):
+def make_noise(an:Animal):
     an.speak()
 
 
 # 测试
 if __name__ == '__main__':
+    an:Animal = Dog() # 父类引用指向子类对象
+
     d = Dog()
     c = Cat()
     # 演示多态
@@ -53,4 +55,4 @@ if __name__ == '__main__':
 
     # 测试汽车类
     car = Car()
-    make_noise(car)
+    make_noise(car) # Python是伪多态
