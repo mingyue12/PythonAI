@@ -5,6 +5,169 @@
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>|root||mingyue||ALLOW_NONEXISTENT_DEFINER|G
+|root||root|localhost|ALLOW_NONEXISTENT_DEFINER|G
+|root||mingyue||ALTER|G
+|root||root|localhost|ALTER|G
+|root||mingyue||ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||mingyue||APPLICATION_PASSWORD_ADMIN|G
+|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
+|root||mingyue||AUDIT_ABORT_EXEMPT|G
+|root||mysql.infoschema|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mysql.session|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mysql.sys|localhost|AUDIT_ABORT_EXEMPT|G
+|root||root|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mingyue||AUDIT_ADMIN|G
+|root||root|localhost|AUDIT_ADMIN|G
+|root||mingyue||AUTHENTICATION_POLICY_ADMIN|G
+|root||mysql.session|localhost|AUTHENTICATION_POLICY_ADMIN|G
+|root||root|localhost|AUTHENTICATION_POLICY_ADMIN|G
+|root||mingyue||BACKUP_ADMIN|G
+|root||mysql.session|localhost|BACKUP_ADMIN|G
+|root||root|localhost|BACKUP_ADMIN|G
+|root||mingyue||BINLOG_ADMIN|G
+|root||root|localhost|BINLOG_ADMIN|G
+|root||mingyue||BINLOG_ENCRYPTION_ADMIN|G
+|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
+|root||mingyue||CLONE_ADMIN|G
+|root||mysql.session|localhost|CLONE_ADMIN|G
+|root||root|localhost|CLONE_ADMIN|G
+|root||mingyue||CONNECTION_ADMIN|G
+|root||mysql.session|localhost|CONNECTION_ADMIN|G
+|root||root|localhost|CONNECTION_ADMIN|G
+|root||mingyue||CREATE|G
+|root||root|localhost|CREATE|G
+|root||mingyue||CREATE ROLE|G
+|root||root|localhost|CREATE ROLE|G
+|root||mingyue||CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||mingyue||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||mingyue||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||mingyue||CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||mingyue||CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||mingyue||DELETE|G
+|root||root|localhost|DELETE|G
+|root||mingyue||DROP|G
+|root||root|localhost|DROP|G
+|root||mingyue||DROP ROLE|G
+|root||root|localhost|DROP ROLE|G
+|root||mingyue||ENCRYPTION_KEY_ADMIN|G
+|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
+|root||mingyue||EVENT|G
+|root||root|localhost|EVENT|G
+|root||mingyue||EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||mingyue||FILE|G
+|root||root|localhost|FILE|G
+|root||mingyue||FIREWALL_EXEMPT|G
+|root||mysql.infoschema|localhost|FIREWALL_EXEMPT|G
+|root||mysql.session|localhost|FIREWALL_EXEMPT|G
+|root||mysql.sys|localhost|FIREWALL_EXEMPT|G
+|root||root|localhost|FIREWALL_EXEMPT|G
+|root||mingyue||FLUSH_OPTIMIZER_COSTS|G
+|root||root|localhost|FLUSH_OPTIMIZER_COSTS|G
+|root||mingyue||FLUSH_PRIVILEGES|G
+|root||root|localhost|FLUSH_PRIVILEGES|G
+|root||mingyue||FLUSH_STATUS|G
+|root||root|localhost|FLUSH_STATUS|G
+|root||mingyue||FLUSH_TABLES|G
+|root||root|localhost|FLUSH_TABLES|G
+|root||mingyue||FLUSH_USER_RESOURCES|G
+|root||root|localhost|FLUSH_USER_RESOURCES|G
+|root||mingyue||GROUP_REPLICATION_ADMIN|G
+|root||root|localhost|GROUP_REPLICATION_ADMIN|G
+|root||mingyue||GROUP_REPLICATION_STREAM|G
+|root||root|localhost|GROUP_REPLICATION_STREAM|G
+|root||mingyue||INDEX|G
+|root||root|localhost|INDEX|G
+|root||mingyue||INNODB_REDO_LOG_ARCHIVE|G
+|root||root|localhost|INNODB_REDO_LOG_ARCHIVE|G
+|root||mingyue||INNODB_REDO_LOG_ENABLE|G
+|root||root|localhost|INNODB_REDO_LOG_ENABLE|G
+|root||mingyue||INSERT|G
+|root||root|localhost|INSERT|G
+|root||mingyue||LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||mingyue||OPTIMIZE_LOCAL_TABLE|G
+|root||root|localhost|OPTIMIZE_LOCAL_TABLE|G
+|root||mingyue||PASSWORDLESS_USER_ADMIN|G
+|root||root|localhost|PASSWORDLESS_USER_ADMIN|G
+|root||mingyue||PERSIST_RO_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||mingyue||PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||mingyue||REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||mingyue||RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||mingyue||REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||mingyue||REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||mingyue||REPLICATION_APPLIER|G
+|root||root|localhost|REPLICATION_APPLIER|G
+|root||mingyue||REPLICATION_SLAVE_ADMIN|G
+|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
+|root||mingyue||RESOURCE_GROUP_ADMIN|G
+|root||root|localhost|RESOURCE_GROUP_ADMIN|G
+|root||mingyue||RESOURCE_GROUP_USER|G
+|root||root|localhost|RESOURCE_GROUP_USER|G
+|root||mingyue||ROLE_ADMIN|G
+|root||root|localhost|ROLE_ADMIN|G
+|root||mingyue||SELECT|G
+|root||mysql.infoschema|localhost|SELECT|G
+|root||root|localhost|SELECT|G
+|root||mingyue||SENSITIVE_VARIABLES_OBSERVER|G
+|root||root|localhost|SENSITIVE_VARIABLES_OBSERVER|G
+|root||mingyue||SERVICE_CONNECTION_ADMIN|G
+|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
+|root||mingyue||SESSION_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
+|root||root|localhost|SESSION_VARIABLES_ADMIN|G
+|root||mingyue||SET_ANY_DEFINER|G
+|root||root|localhost|SET_ANY_DEFINER|G
+|root||mingyue||SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||mingyue||SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||mingyue||SHOW_ROUTINE|G
+|root||root|localhost|SHOW_ROUTINE|G
+|root||mingyue||SHUTDOWN|G
+|root||mysql.session|localhost|SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||mingyue||SUPER|G
+|root||mysql.session|localhost|SUPER|G
+|root||root|localhost|SUPER|G
+|root||mingyue||SYSTEM_USER|G
+|root||mysql.infoschema|localhost|SYSTEM_USER|G
+|root||mysql.session|localhost|SYSTEM_USER|G
+|root||mysql.sys|localhost|SYSTEM_USER|G
+|root||root|localhost|SYSTEM_USER|G
+|root||mingyue||SYSTEM_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||mingyue||TABLE_ENCRYPTION_ADMIN|G
+|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
+|root||mingyue||TELEMETRY_LOG_ADMIN|G
+|root||root|localhost|TELEMETRY_LOG_ADMIN|G
+|root||mingyue||TRANSACTION_GTID_TAG|G
+|root||root|localhost|TRANSACTION_GTID_TAG|G
+|root||mingyue||TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||mingyue||UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||mingyue||XA_RECOVER_ADMIN|G
+|root||root|localhost|XA_RECOVER_ADMIN|G
+|root||mingyue||grant option|G
+|root||root|localhost|grant option|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <ServerVersion>8.4.0</ServerVersion>
     </root>
     <collation id="2" parent="1" name="armscii8_bin">
@@ -909,55 +1072,58 @@
     <schema id="288" parent="1" name="bigdata_db">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-03-19.11:39:03</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-04-01.18:12:45</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="289" parent="1" name="information_schema">
+    <schema id="289" parent="1" name="day01">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="290" parent="1" name="day02">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="290" parent="1" name="mysql">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="291" parent="1" name="performance_schema">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="292" parent="1" name="sys">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="293" parent="1" name="day01">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="294" parent="1" name="day02">
+    <schema id="291" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <user id="295" parent="1" name="mingyue">
+    <schema id="292" parent="1" name="mysql">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="293" parent="1" name="north_wind">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="294" parent="1" name="performance_schema">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="295" parent="1" name="sys">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="296" parent="1" name="mingyue">
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="296" parent="1" name="mysql.infoschema">
+    <user id="297" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="297" parent="1" name="mysql.session">
+    <user id="298" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="298" parent="1" name="mysql.sys">
+    <user id="299" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="299" parent="1" name="root">
+    <user id="300" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="300" parent="288" name="表_name">
+    <table id="301" parent="288" name="表_name">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <column id="301" parent="300" name="列_name">
+    <column id="302" parent="301" name="列_name">
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
