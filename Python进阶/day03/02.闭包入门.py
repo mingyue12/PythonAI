@@ -46,3 +46,16 @@ def fun_outer(num1):
         sum1 = num1 + num2
         print(f"求和结果",sum1)
     return fun_inner
+# 4.调用上述函数
+fun_inner = fun_outer(10)
+fun_inner(1)    # 11
+fun_inner(1)    # 11
+fun_inner(1)    # 11
+
+
+
+
+
+print('-' * 20)
+fun_outer(100)(200)
+
