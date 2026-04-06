@@ -1,5 +1,5 @@
 """
-案例：装饰器装饰_无参有返回的原函数
+案例：装饰器装饰_有参有返回的原函数
 细节：
     装饰器的内部函数格式要和被装饰的原函数保持一致，
     即：原函数无参无返回，装饰器的内部函数也必须是无参无返回
@@ -10,22 +10,20 @@
 # 定义装饰器
 def my_decorator(func_name):
     # 定义内部函数
-    def func_inner():
+    def func_inner(a, b):
         # 添加提示信息（额外功能）
         print("正在计算")
         # 调用原函数
-        return func_name()
+        return func_name(a, b)
     return func_inner
 
 
 
 # 定义原函数,有参无返回值
 @my_decorator
-def get_sum():
-    a = 11
-    b = 22
+def get_sum(a, b):
     return a + b
 
 
-flag = get_sum()
-print(flag)
+flag = get_sum(10, 20)
+print(flag) 
