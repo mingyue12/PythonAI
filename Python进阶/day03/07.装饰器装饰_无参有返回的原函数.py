@@ -6,21 +6,26 @@
 """
 
 # 需求：定义有参无返回的get_sum()求和函数，在不改变其代码的基础上，添加友好提示，
+# 装饰器内部函数，要和被装饰函数保持一致
 # 定义装饰器
 def my_decorator(func_name):
     # 定义内部函数
-    def func_inner(a, b):
+    def func_inner():
         # 添加提示信息（额外功能）
         print("正在计算")
         # 调用原函数
-        func_name(a, b)
+        return func_name()
     return func_inner
+
+
 
 # 定义原函数,有参无返回值
 @my_decorator
-def get_sum(a, b):
-    sum = a + b
-    print("和为：", sum)
+def get_sum():
+    a = 11
+    b = 22
+    return a + b
 
 
-get_sum(10, 20)
+flag = get_sum()
+print(flag)
