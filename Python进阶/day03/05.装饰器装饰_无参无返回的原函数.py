@@ -9,8 +9,11 @@
 # 定义装饰器
 def tip(fu_name):
     def fuc_innder():
+        # 添加提示信息（额外功能）
         print("努力计算中")
+        # 调用原函数
         fu_name()
+    # 返回内部函数
     return fuc_innder
 
 # 定义原函数
