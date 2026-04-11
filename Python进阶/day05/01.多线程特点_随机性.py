@@ -9,8 +9,8 @@
     4.多线程操作共享数据，可能会出现安全问题，可以用互斥锁解决问题
 
 CPU调度资源的策略：
-    1.
-    2.
+    1.均分时间片
+    2.抢占式调度
 """
 # 需求：创建多个线程，多次运行，观察结果
 
@@ -24,8 +24,8 @@ def print_info():
     time.sleep(0.2)
     # 1.2 获取当前线程对象
     current_thread = threading.current_thread()
-    # 1.3 打印当前线程
-    print(current_thread)
+    # 1.3 打印当前线程的名字
+    print(current_thread.name)
 
 # 测试
 if __name__ == '__main__':
